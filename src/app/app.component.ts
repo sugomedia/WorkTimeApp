@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'WorkTimeApp';
+  title = 'WorkTime Application';
+
+  settings = {
+    title: 'WorkTime Application',
+    author: '2/14.szft',
+    company: 'Bajai SZC Türr István Technikum' 
+  }
 }

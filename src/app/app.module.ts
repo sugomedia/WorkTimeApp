@@ -9,6 +9,12 @@ import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { NotfoundComponent } from './components/notfound/notfound.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
+import { HomeComponent } from './components/home/home.component';
+import { UsersComponent } from './components/users/users.component';
+import { CategoriesComponent } from './components/categories/categories.component';
+import { WorktimeComponent } from './components/worktime/worktime.component';
+import { ProfileComponent } from './components/profile/profile.component';
+import { PassmodComponent } from './components/passmod/passmod.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +25,12 @@ import { NavbarComponent } from './components/navbar/navbar.component';
     FooterComponent,
     NotfoundComponent,
     NavbarComponent,
+    HomeComponent,
+    UsersComponent,
+    CategoriesComponent,
+    WorktimeComponent,
+    ProfileComponent,
+    PassmodComponent,
   ],
   imports: [
     BrowserModule,
