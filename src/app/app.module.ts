@@ -15,6 +15,7 @@ import { CategoriesComponent } from './components/categories/categories.componen
 import { WorktimeComponent } from './components/worktime/worktime.component';
 import { ProfileComponent } from './components/profile/profile.component';
 import { PassmodComponent } from './components/passmod/passmod.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { PassmodComponent } from './components/passmod/passmod.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
