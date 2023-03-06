@@ -14,8 +14,12 @@ export class HttpService {
     return this.http.get(this.serverUrl+'?table='+table);
   }
 
-  select(table: string, id: number){
+  selectByID(table: string, id: number){
     return this.http.get(this.serverUrl+'?table='+table+'&id='+id);
+  }
+
+  selectByField(table: string, field: string, op: string, value: string){
+    return this.http.get(this.serverUrl+'?table='+table+'&field='+field+'&op='+op+'&value='+value);
   }
 
   insert(data: object) {
